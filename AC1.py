@@ -34,4 +34,6 @@ são bissextos. Então 1995 não é bissexto, 2012 é bissexto, 1900 não
 ano = int(input("Digite um ano: "))
 
 bis = (ano % 4 == 0) and ((ano % 100 != 0) or (ano % 400 == 0))
+
+print("\nO ano digitado é bissexto?")
 print(bis)
