@@ -7,7 +7,7 @@ def descobrir_salario():
     salario_hora = float(input("Quanto você ganha por hora? R$"))
     horas_trabalhadas = float(input("Quantas horas você trabalhou esse mês? "))
     salario = salario_mes(sal_hr=salario_hora, hrs_trab=horas_trabalhadas)
-    print("Seu salário este mês será de R$", salario)
+    print(f"Seu salário este mês será de R$ {salario:.2f}")
 
 #Demonstração:
 descobrir_salario()
@@ -16,7 +16,7 @@ descobrir_salario()
 
 # AC2 (2)
 
-def operacoes(a, b, c):
+def print_operacoes(a, b, c):
     # Matematicamente, a expressão numérica abaixo poderia ser simplificada para "a*b",
     # porém coloquei exatamente como o exercício pediu.
     print(2*a*b/2)
@@ -24,7 +24,7 @@ def operacoes(a, b, c):
     print(c**3)
 
 #Demonstração:
-operacoes(3,4,5)
+print_operacoes(3,4,5)
 
 
 
@@ -41,6 +41,7 @@ def operacoes(a, b, c):
 #Demonstração:
 resultados = operacoes(3,4,5)
 print(resultados)
+
 
 
 # AC2 (4)
