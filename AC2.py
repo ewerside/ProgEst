@@ -1,16 +1,16 @@
 # AC2 (1)
 
-# def salario_mes(sal_hr, hrs_trab):
-#     return sal_hr * hrs_trab
-#
-# def descobrir_salario():
-#     salario_hora = float(input("Quanto você ganha por hora? R$"))
-#     horas_trabalhadas = float(input("Quantas horas você trabalhou esse mês? "))
-#     salario = salario_mes(sal_hr=salario_hora, hrs_trab=horas_trabalhadas)
-#     print("Seu salário este mês será de R$", salario)
-#
-# #Demonstração:
-# descobrir_salario()
+def salario_mes(sal_hr, hrs_trab):
+    return sal_hr * hrs_trab
+
+def descobrir_salario():
+    salario_hora = float(input("Quanto você ganha por hora? R$"))
+    horas_trabalhadas = float(input("Quantas horas você trabalhou esse mês? "))
+    salario = salario_mes(sal_hr=salario_hora, hrs_trab=horas_trabalhadas)
+    print("Seu salário este mês será de R$", salario)
+
+#Demonstração:
+descobrir_salario()
 
 
 
@@ -54,6 +54,7 @@ def bissexto():
     ano = int(input("Digite um ano: "))
     resultado = calc_bis(ano)
     print("O ano digitado é bissexto? ", resultado)
+    
 
 #Demonstração:
 
