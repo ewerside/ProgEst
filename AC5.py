@@ -16,7 +16,7 @@ def quantidade_de_digitos():
 
 quantidade_de_digitos()
 
-def divisao():
+def divide_inteiros():
     resultado = None
     while resultado == None:
         try:
@@ -31,4 +31,4 @@ def divisao():
             if resultado:
                 print(resultado)
 
-divisao()
+divide_inteiros()
